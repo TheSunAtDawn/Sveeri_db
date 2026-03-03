@@ -7,12 +7,20 @@ Tables: `users`, `positions`, `candidates`, `sessions`, `ballots`, `votes`
 
 Extra fields: `created_by` on positions & candidates, `scanned_by` and `scanned_at` on ballots.
 
+<img width="806" height="834" alt="Screenshot 2026-03-03 193429" src="https://github.com/user-attachments/assets/6edf62cd-046c-4e6d-aebc-557fa0e9eb99" />
+
+
 ### ver2
 Same tables. Removed `created_by`, `scanned_by`, and `scanned_at`.
+
+<img width="669" height="834" alt="Screenshot 2026-03-03 193544" src="https://github.com/user-attachments/assets/777f8a79-40c2-4a9c-bba0-9d9d4d909424" />
 
 ### ver3 ✅ Current
 Same tables. Added to `ballots`: `scan_attempts`, `is_successful`.  
 Added to `votes`: `position_id`, `is_abstain` and made `candidate_id` nullable.
+
+<img width="1159" height="855" alt="Screenshot 2026-03-03 193620" src="https://github.com/user-attachments/assets/9928737a-26a1-44af-9947-d846922bd360" />
+
 
 --------------------------------------------------------------------------------
 
