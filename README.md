@@ -16,8 +16,7 @@ Added to `votes`: `position_id`, `is_abstain` and made `candidate_id` nullable.
 
 --------------------------------------------------------------------------------
 
-
-##Tables (ver3)
+## Tables (ver3)
 
 | Table | Fields |
 |---|---|
@@ -30,7 +29,7 @@ Added to `votes`: `position_id`, `is_abstain` and made `candidate_id` nullable.
 
 ---
 
-##What Each Field Does to the Code
+## What Each Field Does to the Code
 
 ### users
 - `password_hash` — the code never stores the raw password. It hashes it with bcrypt before saving and checks it with bcrypt on login.
