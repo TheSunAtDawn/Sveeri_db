@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 03, 2026 at 12:30 PM
+-- Generation Time: Mar 03, 2026 at 12:49 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `ballots` (
   `id` int(11) NOT NULL,
   `session_id` int(11) NOT NULL,
-  `scan_attempts` tinyint(1) DEFAULT 1,
+  `scan_attempts` tinyint(3) DEFAULT 1,
   `is_successful` tinyint(1) DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
